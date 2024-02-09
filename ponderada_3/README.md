@@ -1,1 +1,1 @@
-# Ponderada 3 - Análise de segurança
+# Ponderada 3 - Integração do simulador ao HiveMQ
