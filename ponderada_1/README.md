@@ -88,3 +88,10 @@ Ao executar o Subscriber (`mqtt_solar_subscriber.py`), você deve esperar ver os
 - Leitura: (valor aleatório de radiação solar em W/m²)
 
 Os dados serão atualizados conforme o Publisher envia novas leituras, e a exibição será formatada de forma clara e legível para o usuário.
+
+## Vídeo de demonstração
+
+https://github.com/luizfsborges/ponderadas-m9-inteli/assets/40524905/1bfb2443-460e-4867-805e-95a5fbbee7ea
+
+
+
