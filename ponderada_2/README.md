@@ -85,3 +85,5 @@ pytest
 Este comando busca e executa todos os testes dentro do diretório especificado, assegurando que todas as funcionalidades do simulador sejam testadas de acordo com os critérios estabelecidos.
 
 ## Resultado esperado
+
+<img width="959" alt="pond2" src="https://github.com/luizfsborges/ponderadas-m9-inteli/assets/40524905/e1a81315-eaa6-4832-a328-5b47ff27e73e">
