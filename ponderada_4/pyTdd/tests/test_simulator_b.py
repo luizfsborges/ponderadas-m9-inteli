@@ -28,12 +28,12 @@ def tls_set(client):
 class TestIoTSimulator(unittest.TestCase):
     def setUp(self):
         # Configuração do cliente para publicação
-        self.publisher_client = mqtt.Client(client_id=client_id_publisher, clean_session=True)
+        self.publisher_client = mqtt.Client(client_id=client_id_publisher, clean_session=True, callback_api_version=mqtt.CallbackAPIVersion.VERSION2)
         tls_set(self.publisher_client)  # Aplica configuração TLS para HiveMQ
         self.publisher_client.connect(broker, port)
 
         # Configuração do cliente para subscrição
-        self.subscriber_client = mqtt.Client(client_id=client_id_subscriber, clean_session=True)
+        self.subscriber_client = mqtt.Client(client_id=client_id_subscriber, clean_session=True, callback_api_version=mqtt.CallbackAPIVersion.VERSION2)
         tls_set(self.subscriber_client)  # Aplica configuração TLS para HiveMQ
         self.subscriber_client.on_message = self.on_message
         self.subscriber_client.connect(broker, port)
