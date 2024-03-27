@@ -6,6 +6,9 @@ __pycache__/
 # Ignore venv folder
 venv/
 
+
+*.env
+
 # C extensions
 *.so
 
