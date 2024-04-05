@@ -48,3 +48,4 @@ try:
 except KeyboardInterrupt:
     print("Encerrando...")
     client.disconnect()
+
